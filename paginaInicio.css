@@ -1,0 +1,376 @@
+
+/* HEADER ------------------------------ */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--shadow-card);
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px 70px 20px 70px;
+  margin-bottom: 50px;
+}
+
+.header-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logotipo-icon {
+display: none;
+}
+
+.searchbar {
+  color: var(--color-destaque);
+  padding: 10px 15px 10px 15px;
+  border-radius: 15px;
+  font-size: 13px;
+  background-color: var(--background-color);
+  display: flex;
+  gap: 15px;
+
+}
+
+.icon-search {
+  color: var(--color-destaque);
+  padding: 15px;
+  border-radius: 100px;
+  font-size: 13px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 45px;
+  height: 45px;
+  background-color: var(--background-color);
+  border-radius: 100px;
+}
+
+/* HEADER ------------------------------ */
+
+/* Banner */
+
+.primary-banner {
+  width: 100vw;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-card);
+}
+
+/* banner ----------------------------- */
+
+/* geral grid */ 
+
+.geral-grid {
+  padding: 0px 70px 0px 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+}
+
+/* grid primaria */
+
+.primary-grid {
+  background-color: var(--primary-active);
+
+  width: 800px;
+  box-sizing: border-box;
+  padding: 20px;
+  padding: 20px 25px 20px 25px;
+  border-radius: 20px;
+  justify-content: center;
+  box-shadow: var(--shadow-card);
+}
+
+.primary-grid ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 40px;
+}
+
+.primary-grid ul li h2 {
+  font-size: 16px;
+  padding-top: 3px;
+  padding-bottom: 1px;
+}
+
+/* grid primaria */
+
+/* subheader */
+
+.grid-subheader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.content-selector {
+  box-sizing: border-box;
+  padding: 0px 10px 0px 0px;
+  border-radius: 10px;
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 15px;
+}
+
+span.anime-selector {
+  background-color: mediumslateblue;
+  box-sizing: border-box;
+  /* padding: 10px 10px 10px 15px; */
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.dorama-selector {
+  color: var(--font-color-50);
+}
+
+.emAlta-selector {
+  color: var(--font-color-50);
+}
+
+.content-selector p {
+  color: var(--font-color-50);
+}
+
+/* subheader ------------- */
+
+/* anime conteudo */ 
+
+.ade-list h2, h3, p, span {
+  color: var(--font-color-50);
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.item-info div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 13px;
+}
+
+/* animes list */
+
+/* seletor de pagina */
+
+.nav-page-selector {
+  background-color: var(--background-color);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: block;
+  border-radius: 15px;
+  width: 170px;
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+  box-shadow: var(--shadow-card);
+}
+
+.nav-selector {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-active-selector {
+  display: block;
+}
+
+/* conteudo lado */
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.second-banner {
+  width: 300px;
+  height: 220px;
+  background-color: var(--primary-active);
+  border-radius: 15px;
+  margin-bottom: 0px;
+  box-shadow: var(--shadow-card);
+}
+
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--background-color);
+}
+
+.side-menu span {
+  background-color: var(--primary-active);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  gap: 5px;
+  box-shadow: var(--shadow-card);
+}
+
+.side-menu p {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.community {
+  background-color: var(--primary-active);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-height: 335px;
+  padding-bottom: 10px;
+  box-shadow: var(--shadow-card);
+}
+
+.community div p {
+  font-size: 15px;
+}
+
+
+
+h1 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+
+
+
+
+.separador {
+  position: relative;
+}
+
+.separador::before {
+  content: '';
+  margin-top: 10px;
+  width: 250px;
+  height: 1px;
+  background-color: var(--card-temporario);
+  position: absolute;
+
+}
+
+
+
+h2 {
+  font-weight: 200;
+}
+
+.searchbarr {
+  display: none;
+}
+
+/* header {
+  position: -webkit-sticky; /* Necessário para funcionar no Safari 
+  position: sticky;
+  top: 0;
+  box-shadow: var(--shadow-card);
+} */
+
+.geral-selector {
+  padding: 1px 15px 1px 1px;
+}
+
+.anime-grid {
+  box-shadow: var(--shadow-card);
+}
+
+.banner-pago {
+  box-shadow: var(--shadow-card);
+}
+
+.extra-itens span {
+  box-shadow: var(--shadow-card);
+}
+
+.assunto-em-alta {
+  box-shadow: var(--shadow-card);
+}
+
+.subheader {
+
+  box-sizing: border-box;
+  padding: 15px 20px 15px 20px;
+  background-color: var(--primary-active); 
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0px 7px 20px -3px;
+  position: sticky;
+  bottom: 0;
+  display: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+
+  
+}
+
+.subheader ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subheader ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subheader ul li img {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  width: 20px;
+  
+}
+
+.subheader ul li {
+  font-size: 14px;
+}
+
+.geral-grid {
+  margin-bottom: 40px;
+}
+
+.modonoturno, .ms, .ntf {
+  display: none;
+}
+

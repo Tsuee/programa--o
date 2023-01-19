@@ -1,0 +1,70 @@
+:root {
+  --color-destaque:#A585FF;
+  --color-destaque-50:#a685ff42 ;
+  --color-destaque-20:#A585FF ;
+
+  --primary-active:#FFFFFF ;
+  --background-color:#F5F6FB ;
+
+  --primary-font-color:#000000 ;
+  --font-color-50:#0000008a ;
+
+  --shadow-card:0px 4px 4px rgba(0, 0, 0, 0.05);
+  --shadow-navbar:0px 0px 4px rgba(0, 0, 0, 0.25);
+
+  --card-temporario: #D9D9D9;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/* Barra de scroll */
+::-webkit-scrollbar {
+  background: var(--card-temporario);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-destaque);
+  border-radius: 10px;
+}
+
+body {
+  margin: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--background-color);
+}
+
+header {
+  background-color: var(--primary-active);
+}
+
+ul { 
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
